@@ -11,7 +11,7 @@
  Target Server Version : 50703
  File Encoding         : 65001
 
- Date: 06/07/2018 20:40:31
+ Date: 07/07/2018 18:55:38
 */
 
 SET NAMES utf8mb4;
@@ -39,7 +39,12 @@ CREATE TABLE `admin_table`  (
   `username` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   `password` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   PRIMARY KEY (`ID`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 2 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;
+
+-- ----------------------------
+-- Records of admin_table
+-- ----------------------------
+INSERT INTO `admin_table` VALUES (1, 'root', 'b3611f38f08181c53684748bdcdcc29b');
 
 -- ----------------------------
 -- Table structure for banner_table

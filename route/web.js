@@ -3,8 +3,9 @@ const express = require('express');
 module.exports = () => {
   let router = express.Router();
 
-  router.get('/1.html', (req, res) => {
-    res.send('Hello World!').end();
+  router.get('/web', (req, res) => {
+    res.render('', {});
   });
+
   return router;
 };

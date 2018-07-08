@@ -11,7 +11,7 @@
  Target Server Version : 50703
  File Encoding         : 65001
 
- Date: 07/07/2018 18:55:38
+ Date: 08/07/2018 22:49:49
 */
 
 SET NAMES utf8mb4;
@@ -56,7 +56,15 @@ CREATE TABLE `banner_table`  (
   `description` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   `href` varchar(512) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   PRIMARY KEY (`ID`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 7 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;
+
+-- ----------------------------
+-- Records of banner_table
+-- ----------------------------
+INSERT INTO `banner_table` VALUES (2, 'dsadasd', 'asdasd', 'asdasdasd');
+INSERT INTO `banner_table` VALUES (3, 'asdasd', 'dsadsa', 'dsadasd');
+INSERT INTO `banner_table` VALUES (4, 'dasdasd', 'asdasdasdasdas', 'dasdasdsad');
+INSERT INTO `banner_table` VALUES (5, '啊打算的asdas', 'FSADasda', 'FSADasdaASDad');
 
 -- ----------------------------
 -- Table structure for blog_table

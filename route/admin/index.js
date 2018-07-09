@@ -18,6 +18,7 @@ module.exports = () => {
 
 router.use('/login', require('./login')());
 router.use('/banners', require('./banners')());
+router.use('/custom', require('./custom')());
 
   return router;
 };
